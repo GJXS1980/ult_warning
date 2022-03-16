@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<launch>
+    <node pkg = "ult_warning" type = "ULT_WARNING_NODE" name = "ULT_WARNING_NODE">
+    	<!-- 设置安全提示距离  单位m-->
+        <param name="safe_distance" value="0.4"/>
+        <param name="playPath_path" value="play /opt/ros/melodic/share/ult_warning/voice/warning.wav"/>
+
+    </node>
+
+</launch>
